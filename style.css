@@ -1,1 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    background-color: #1F2937 ;
+}
 
+.hero-container{
+    background-color: #1F2937;
+    display: flex;
+}
+
+.randominfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937 ;
+}
