@@ -95,8 +95,39 @@ a{
 .randominfo{
     display: flex;
     flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    gap: 65px;
 }
-
+.randominfo-title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.random-holder{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 85px;
+}
+.random-object{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.random-image-holder{
+    height: 150px;
+    width: 150px;
+    flex-shrink: 0;
+    border: 3px solid #3882F6;
+    border-radius: 10% ;
+}
+.random-text-holder{
+    text-align: center;
+    width: 150px;
+}
 .quote-container{
     display: flex;
     flex-direction: column;
