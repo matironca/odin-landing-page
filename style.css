@@ -132,8 +132,19 @@ a{
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
+    padding: 85px 200px;
 }
-
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote-footer{
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+}
 .calltoaction-container{
     display: flex;
 }
