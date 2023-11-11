@@ -150,8 +150,47 @@ a{
 }
 .calltoaction-container{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+    max-height: 313px;
 }
-
+.calltoaction{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+    flex-basis: 1350px;
+    min-width: 600px;
+    max-height: 114px;
+    border-radius: 10px;
+}
+.calltoaction-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+.calltoaction-text , .calltoaction-title{
+    color: #E5E7EB;
+}
+.calltoaction-text{
+    font-size: 18px;
+}
+.calltoaction-button{
+    flex-shrink: 0;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 5px 30px;
+    flex-grow: 0;
+    align-self: flex-start;    
+    text-align: center;
+}
 .footer{
     display: flex;
     background-color: #1F2937 ;
